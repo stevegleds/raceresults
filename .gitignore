@@ -12,4 +12,10 @@
 # Ignore all local history of files
 .history
 
+### Venv ###
+venvresults/*
+
+### Pycache ###
+__pycache__/*
+
 # End of https://www.gitignore.io/api/visualstudiocode

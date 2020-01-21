@@ -3,7 +3,8 @@ from process_results import get_race_results
 
 dir = os.getcwd()
 print("first dir is:", dir)
-data_dir = dir+'\\raceresults\\'
+# data_dir = dir+'\\data\\'
+data_dir = dir + '\\'
 print("data_dir directory is: ", data_dir)
 os.chdir(data_dir)
 print('second dir is: ', os.getcwd())

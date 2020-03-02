@@ -5,6 +5,7 @@ from matplotlib.ticker import FuncFormatter
 os.chdir('output/')  # to save plot files in the right folder
 results_file = 'OtherRaces.csv'
 
+
 def currency(x, pos):
     'x is the value and pos is position'
     if x >= 1000000:
@@ -12,9 +13,7 @@ def currency(x, pos):
     return '£{:1.0f}K'.format(x * 1e-3)
 
 
-df = pd.read_excel(
-    results_file
-)
+df = pd.read_csv(results_file)
 print(df.head())
 top_10 = (df.groupby('name')['ext price', 'quantity'].agg({
     'ext price': 'sum',

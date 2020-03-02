@@ -15,6 +15,7 @@
 ### Venv ###
 venvresults/*
 venvraceresults/*
+raceresults/*
 
 ### Pycache ###
 __pycache__/*

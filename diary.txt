@@ -1,0 +1,2 @@
+Created 'graphs' branch to work on graphs
+Copied matplotlib code from cookbook and created output folder

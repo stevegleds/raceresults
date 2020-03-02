@@ -1,2 +1,4 @@
 pandas
 gunicorn
+matplotlib
+xlrd

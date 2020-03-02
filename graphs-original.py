@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 from matplotlib.ticker import FuncFormatter
 os.chdir('output/')  # to save plot files in the right folder
-results_file = 'OtherRaces.csv'
+
 
 def currency(x, pos):
     'x is the value and pos is position'
@@ -13,7 +13,7 @@ def currency(x, pos):
 
 
 df = pd.read_excel(
-    results_file
+    "https://github.com/chris1610/pbpython/blob/master/data/sample-salesv3.xlsx?raw=true"
 )
 print(df.head())
 top_10 = (df.groupby('name')['ext price', 'quantity'].agg({

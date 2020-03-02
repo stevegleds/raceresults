@@ -1,2 +1,5 @@
+02 March 2020
+Made copy of graphs.py and pointed it to OtherRaces.csv but file not found error
+02 March 2020
 Created 'graphs' branch to work on graphs
 Copied matplotlib code from cookbook and created output folder
